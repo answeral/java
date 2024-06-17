@@ -78,6 +78,8 @@ public class C0617_16 {
 				System.out.printf("%d*%d=%d \n",i,j,i*j);
 			}
 		}
+		
+		
 			
 		
 		
