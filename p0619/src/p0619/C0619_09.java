@@ -74,7 +74,7 @@ public class C0619_09 {
 				System.out.println("-------------------------------");
 				// 학생 찾기
 				System.out.println("성적 수정할 학생의 이름을 입력해주세요.>>");
-				String search =scan.nextLine();
+				String search = scan.nextLine();
 				
 				int temp_no = -1; //학생의 위치값, 없는 경우 -1 
 				for(int i=0; i<s_count; i++) {
@@ -97,6 +97,19 @@ public class C0619_09 {
 						System.out.println("3.수학점수 수정");
 						System.out.println("-----------------------");
 						System.out.println("원하는 번호를 입력하세요.>> ");
+						
+						switch(choice) {
+						case 1:
+							System.out.println("수정할 국어점수를 입력해주세요.");
+							System.out.println("현재국어점수 ");
+							break;
+						
+						
+						
+						}
+						
+						
+						
 					}
 				// 수정 입력 후 합계 고치기
 			}//switch
