@@ -100,10 +100,15 @@ public class C0619_09 {
 						
 						switch(choice) {
 						case 1:
-							System.out.println("수정할 국어점수를 입력해주세요.");
-							System.out.println("현재국어점수 ");
+							System.out.println("수정할 국어점수를 입력해주세요.>>");
+							
+							System.out.println("현재국어점수 "+score[s_count][0]);
+							System.out.println("변경국어점수 "+title[choice+1]);
+							score[temp_no][choice-1]= scan.nextInt();
+							
 							break;
-						
+						case 2:
+							System.out.println("수정할 영어점수를 입력해주세요.>>");
 						
 						
 						}
