@@ -2,14 +2,15 @@ package p0628;
 
 public class Card {
 	
-//	enum Kind{SPADE,CLOVER,HEART,DIAMOND}
+	enum Kind{SPADE,CLOVER,HEART,DIAMOND}//{}안의 향태로만 받겠다
 	
+//	spade, SPADE,Spade로 입력을 할 수 있는데 SPADE로만 입력을 받겠다
 	
 	private int number;
 	private String kind;
 	
 	Card(){}
-	Card(int number,String kind){
+	Card(int number,Kind kind){
 		this.number = number;
 		this.kind = kind;
 		
@@ -27,7 +28,7 @@ public class Card {
 		return kind;
 	}
 	
-	public void setKind(String kind) {
+	public void setKind(Kind kind) {
 		this.kind =kind;
 	}
 	

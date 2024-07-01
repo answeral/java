@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Scanner;
 
+import p0628.Card.Kind;
+
 public class C0628_10 {
 
 	public static void main(String[] args) {
@@ -14,12 +16,13 @@ public class C0628_10 {
 		
 		ArrayList<Card> list = new ArrayList<Card>();
 		
-		list.add(new Card(1,"SPADE"));
-		list.add(new Card(1,"DIAMOND"));
-		list.add(new Card(3,"Spade"));
-		list.add(new Card(7,"spade"));
-		list.add(new Card(5,"CLOVER"));
-		list.add(new Card(2,"DIamond"));
+		//SPADE, CLOVER,HEART, DIAMOND로만 입력을 받음 enum
+		list.add(new Card(1,Kind.CLOVER));
+		list.add(new Card(1,Kind.DIAMOND));
+		list.add(new Card(3,Kind.SPADE));
+		list.add(new Card(7,Kind.SPADE));
+		list.add(new Card(5,Kind.CLOVER));
+		list.add(new Card(2,Kind.DIAMOND));
 		
 //		list.sort(new Comparator<Card>() {
 //
