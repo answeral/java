@@ -7,7 +7,7 @@ public class Card {
 //	spade, SPADE,Spade로 입력을 할 수 있는데 SPADE로만 입력을 받겠다
 	
 	private int number;
-	private String kind;
+	private Kind kind;
 	
 	Card(){}
 	Card(int number,Kind kind){
@@ -25,7 +25,7 @@ public class Card {
 	}
 	
 	public String getKiind() {
-		return kind;
+		return Kind;
 	}
 	
 	public void setKind(Kind kind) {

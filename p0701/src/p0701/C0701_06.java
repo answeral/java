@@ -40,7 +40,7 @@ public class C0701_06 {
 		
 //		
 //		for(int i=0; i<list.size(); i++) {
-//			Students s = list.get(i);
+//			Students s = list.get(i); 
 ////			System.out.println(s.getName()+","+s.getTotal()+","+s.getAvg());
 //			System.out.println(s);
 //		}
